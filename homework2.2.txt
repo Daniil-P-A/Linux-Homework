@@ -1,0 +1,10 @@
+   0 mkdir -p /home/user/start /opt/task
+   1 touch /home/user/start/1.txt
+   2 vi /home/user/start/1.txt 
+   3 date >> /home/user/start/1.txt 
+   4 mv /home/user/start/1.txt /opt/task/start.txt
+   5 ls -al
+   6 cat .ash_history | tail -4 bench.py | tail -4 hello.c | tail -4 hello.js | tail -4 readme.txt | tail -4 >> /opt/task/start.txt 
+   7 cat /opt/task/start.txt 
+   8 history
+   9 history > homework2.txt | export_file homework2.txt
