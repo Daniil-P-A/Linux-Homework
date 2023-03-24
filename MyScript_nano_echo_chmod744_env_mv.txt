@@ -1,0 +1,8 @@
+   0 nano myscript.sh
+   1 chmod 744 myscript.sh 
+   2 ./myscript.sh 
+   3 env
+   4 mv myscript.sh /usr/local/bin/myscript
+   5 myscript
+   6 history > history.txt | export_file history
+   7 history > history.txt 
