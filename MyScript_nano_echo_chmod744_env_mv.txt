@@ -1,0 +1,77 @@
+
+ 
+ #!/bin/bash
+date
+echo "Hello my friend, what's your name? Enter your name: "
+read USER
+echo "Welcom to my program $USER!"
+echo "I work to " pwd
+echo ps -ef | wc -l
+
+localhost:~# chmod u+x myscriptbash.sh
+localhost:~# ./myscriptbash.sh
+Sun Mar 26 06:25:09 UTC 2023
+Hello my friend, what's your name? Enter your name:
+Daniil
+Welcom to my program Daniil!
+I work to  pwd
+1
+localhost:~# env
+SHLVL=3
+HOME=/root
+OLDPWD=/
+PAGER=less
+PS1=\h:\w\$
+TERM=linux
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+PWD=/root
+TZ=UTC-02:00
+localhost:~# mv myscriptbash.sh /usr/bin/myscr
+localhost:~# myscr
+Sun Mar 26 06:27:15 UTC 2023
+Hello my friend, what's your name? Enter your name:
+Danii
+Welcom to my program Danii!
+I work to  pwd
+1
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
